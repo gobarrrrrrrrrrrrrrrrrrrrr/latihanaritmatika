@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>kalkulator harga kopi</title>
+ <link rel="stylesheet"href="style.css">
+</head>
+<body>
+  <div class="container">
+  <h1>menghitung harga kopi</h1>
+  
+  <form id="formkopi">
+    <label>harga per gelas (Rp)</label>
+    <input type="text"name=""id="harga"value="15000">
+    <br><br>
+    
+    <label>jumlah pesanan </label>
+    <input type="number"name=""id="jumlah"placeholder="masukan jumlah">
+    <br><br>
+    
+    <label>Diskon (%):</label>
+    <input type="number"name=""id="diskon" value="5">
+    <br><br>
+    
+    <button type="button"onclick="hitung()">hitung total</button>
+  </form>
+  
+  <h3 id="hasil"></h3>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
